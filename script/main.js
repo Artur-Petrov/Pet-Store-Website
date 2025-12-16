@@ -80,9 +80,11 @@ ScrollReveal().reveal(".service__card", {
 });
 
 const swiper = new Swiper(".swiper", {
-    slidesPerView: 1,
+    slidesPerView: 3,
     spaceBetween: 20,
     loop: true,
+    allowTouchMove: true,
+
     breakpoints: {
         540: {
             slidesPerView: 2,
@@ -92,6 +94,10 @@ const swiper = new Swiper(".swiper", {
         },
     },
 });
+
+// swiper.on('slidechange', function () {
+//     console.log('work')
+// })
 
 ScrollReveal().reveal(".instagram__grid img", {
     duration: 1000,
