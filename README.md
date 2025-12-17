@@ -6,9 +6,6 @@ A fully responsive landing page for a pet store, built from scratch. This projec
 
 ---
 
-## 📸 Screenshot
-![Pet Store Preview](https://github.com/Artur-Petrov/Pet-Store-Website/blob/main/assets/preview.png?raw=true)
-
 ## 🛠 Technologies
 * **HTML5** — Semantic structure.
 * **CSS3** — Custom styling, Flexbox/Grid, Responsive design.
